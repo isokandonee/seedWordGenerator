@@ -1,21 +1,4 @@
-// for (let i = 0; i < 10; i++) {
-//     document.write(i+1+" come on"+"<br />"+"<br />");
-// }
-
-// x=0;
-// while (x < 10) {
-//     document.write(x+1+" while on"+"<br>");
-//     x++;
-// }
-
-// i = 2;
-// do{
-//     document.write("shut up");
-//     i++;
-// }while(i < 20);
-// setTimeout();
-
-var fruits = [
+[
 
     "abandon", "ability", "able", "about", "above", "absent", "absorb", "abstract", "absurd", 
     "abuse", "access", "accident", "account", "accuse", "achieve", "acid", "acoustic", 
@@ -28,9 +11,9 @@ var fruits = [
     "ankle", "announce", "annual", "another", "answer", "antenna", "antique", "anxiety", 
     "any", "apart", "apology", "appear", "apple", "approve", "april", "arch", "arctic", "area", 
     "arena", "argue", "arm", "armed", "armor", "army", "around", "arrange", "arrest", "arrive", 
-    "arrow", "art", "artefact", "artist", "artwork", "ask", "aspect", "assault", "asset", 
+    arrow", "art", "artefact", "artist", "artwork", "ask", "aspect", "assault", "asset", 
     "assist", "assume", "asthma", "athlete", "atom", "attack", "attend", "attitude", "attract", 
-    "auction", "audit", "august", "aunt", "author", "auto", "autumn", "average", "avocado", 
+    auction", "audit", "august", "aunt", "author", "auto", "autumn", "average", "avocado", 
     "avoid", "awake", "aware", "away", "awesome", "awful", "awkward", "axis", "baby", 
     "bachelor", "bacon", "badge", "bag", "balance", "balcony", "ball", "bamboo", "banana", 
     "banner", "bar", "barely", "bargain", "barrel", "base", "basic", "basket", "battle", 
@@ -74,31 +57,4 @@ var fruits = [
     "reward", "rhythm", "rib", "ribbon", "rice", "rich", "ride", "ridge", "rifle", "right", "rigid", "ring", "riot", "ripple", "risk", "ritual", "rival", "river", "road", "roast", "robot", "robust", "rocket", "romance", "roof", "rookie", "room", "rose", "rotate", "rough", "round", "route", "royal", "rubber", "rude", "rug", "rule", "run", "runway", "rural", "sad", "saddle", "sadness", "safe", "sail", "salad", "salmon", "salon", "salt", "salute", "same", "sample", "sand", "satisfy", "satoshi", "sauce", "sausage", "save", "say", "scale", "scan", "scare", 
     "scatter", "scene", "scheme", "school", "science", "scissors", "scorpion", "scout", "scrap", "screen", "script", "scrub", "sea", "search", "season", "seat", "second", "secret", "section", "security", "seed", "seek", "segment", "select", "sell", "seminar", "senior", "sense", "sentence", "series", "service", "session", "settle", "setup", "seven", "shadow", "shaft", "shallow", "share", "shed", "shell", "sheriff", "shield", "shift", "shine", "ship", "shiver", "shock", "shoe", "shoot", "shop", "short", "shoulder", "shove", "shrimp", "shrug", "shuffle", "shy", "sibling", "sick", "side", "siege", "sight", "sign", "silent", "silk", "silly", "silver", "similar", "simple", "since", "sing", "siren", "sister", "situate", "six", "size", "skate", "sketch", "ski", "skill", "skin", "skirt", "skull", "slab", "slam", "sleep", "slender", "slice", "slide", "slight", "slim", "slogan", "slot", "slow", "slush", "small", "smart", "smile", "smoke", "smooth", "snack", "snake", "snap", "sniff", "snow", "soap", "soccer", "social", "sock", "soda", "soft", "solar", "soldier", "solid", "solution", "solve", "someone", "song", "soon", "sorry", "sort", "soul", "sound", "soup", "source", "south", "space", "spare", "spatial", "spawn", "speak", "special", "speed", "spell", "spend", "sphere", "spice", "spider", "spike", "spin", "spirit", "split", "spoil", "sponsor", "spoon", "sport", "spot", "spray", "spread", "spring", "spy", "square", "squeeze", "squirrel", "stable", "stadium", "staff", "stage", "stairs", "stamp", "stand", "start", "state", "stay", "steak", "steel", "stem", "step", "stereo", "stick", "still", "sting", "stock", "stomach", "stone", "stool", "story", "stove", "strategy", "street", "strike", "strong", "struggle", "student", "stuff", "stumble", "style", "subject", "submit", "subway", "success", "such", "sudden", "suffer", "sugar", "suggest", "suit", "summer", "sun", "sunny", "sunset", "super", "supply", "supreme", "sure", "surface", "surge", "surprise", "surround", "survey", "suspect", "sustain", "swallow", "swamp", "swap", "swarm", "swear", "sweet", "swift", "swim", "swing", "switch", "sword", "symbol", "symptom", "syrup", "system", "table", "tackle", "tag", "tail", "talent", "talk", "tank", "tape", "target", "task", "taste", "tattoo", "taxi", "teach", "team", "tell", "ten", "tenant", "tennis", "tent", "term", "test", "text", "thank", "that", "theme", "then", "theory", "there", "they", "thing", "this", "thought", "three", "thrive", "throw", "thumb", "thunder", "ticket", "tide", "tiger", "tilt", "timber", "time", "tiny", "tip", "tired", "tissue", "title", "toast", "tobacco", "today", "toddler", "toe", "together", "toilet", "token", "tomato", "tomorrow", "tone", "tongue", "tonight", "tool", "tooth", "top", "topic", "topple", "torch", "tornado", "tortoise", "toss", "total", "tourist", "toward", "tower", "town", "toy", "track", "trade", "traffic", "tragic", "train", "transfer", "trap", "trash", "travel", "tray", "treat", "tree", "trend", "trial", "tribe", "trick", "trigger", "trim", "trip", "trophy", "trouble", "truck", "true", "truly", "trumpet", "trust", "truth", "try", "tube", "tuition", "tumble", "tuna", "tunnel", "turkey", "turn", "turtle", "twelve", "twenty", "twice", "twin", "twist", "two", "type", "typical", "ugly", "umbrella", "unable", "unaware", "uncle", "uncover", "under", "undo", "unfair", "unfold", "unhappy", "uniform", "unique", "unit", "universe", "unknown", "unlock", "until", "unusual", "unveil", "update", "upgrade", "uphold", "upon", "upper", "upset", "urban", "urge", "usage", "use", "used", "useful", "useless", "usual", "utility", "vacant", "vacuum", "vague", "valid", "valley", "valve", "van", "vanish", "vapor", "various", "vast", "vault", "vehicle", "velvet", "vendor", "venture", "venue", "verb", "verify", "version", "very", "vessel", "veteran", "viable", "vibrant", "vicious", "victory", "video", "view", "village", "vintage", "violin", "virtual", "virus", "visa", "visit", "visual", "vital", "vivid", "vocal", "voice", "void", "volcano", "volume", "vote", "voyage", "wage", "wagon", "wait", "walk", "wall", "walnut", "want", "warfare", "warm", "warrior", "wash", "wasp", "waste", "water", "wave", "way", "wealth", "weapon", "wear", "weasel", "weather", "web", "wedding", "weekend", "weird", "welcome", "west", "wet", "whale", "what", "wheat", "wheel", "when", "where", "whip", "whisper", "wide", "width", "wife", "wild", "will", "win", "window", "wine", "wing", "wink", "winner", "winter", "wire", "wisdom", "wise", "wish", "witness", "wolf", "woman", "wonder", "wood", "wool", "word", "work", "world", "worry", "worth", "wrap", "wreck", "wrestle", "wrist", "write", "wrong", "yard", "year", "yellow", "you", "young", "youth", "zebra", "zero", "zone", "zoo"
 
-];
-var f = fruits.length;
-// arayLength;
-
-// a.innerHTML = "f";
-
-function random() {
-    let randomNo = Math.floor(Math.random() * f);
-    display.innerHTML += fruits[randomNo] + (" , ");
-}
-
-function setValue() {
-    var a = document.getElementById("amount").placeholder = "Enter a no bet. 1 and " + f;
-}
-
-function shuffle() {
-    setValue();
-    const display = document.getElementById("display");
-    const replay = document.getElementById("replay");
-    const enter = document.getElementById("enter");
-    display.innerHTML = "";
-    for (let i = 0; i < replay.value; i++) {
-        random();
-        // enter.disabled = true;
-    }
-
-}
-
+]
